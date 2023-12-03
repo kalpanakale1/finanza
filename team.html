@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanza</title>
+    <style>
+        @import url(css/bootstrap-icons.css);
+        @import url(css/bootstrap.min.css);
+        @import url(css/swiper-bundle.min.css);
+        @import url(css/animate.css);
+        @import url(css/animate.min.css);
+        @import url(css/fonts.css);
+        @import url(css/style.css);
+    </style>
+</head>
+<body>
+
+    <!-- loader-->
+    <div class="loading-container position-sticky">
+        <div class="loading"></div>
+        <div id="loading-text">finanza</div>
+    </div>
+    
+    <header class="position-fixed w-100">
+        <div class="top-bar border-bottom d-flex justify-content-between">
+            <div class="topbar-left d-none d-lg-block py-3 px-4">
+                <ul class="list-unstyled hstack m-0">
+                    <li class="pe-3"><a class=" text-decoration-none text-secondary" href="#"><i class="bi bi-geo-alt-fill pe-2 text-primary"></i>123 Street, New York, USA</a></li>
+                    <li><a class=" text-decoration-none text-secondary" href="#"><i class="bi bi-clock-fill pe-2 text-primary"></i>9.00 am - 9.00 pm</a></li>
+                </ul>
+            </div>
+            <div class="topbar-right d-none d-lg-block py-3 px-4">
+                <ul class="list-unstyled hstack m-0">
+                    <li class="pe-3"><a class=" text-decoration-none text-secondary" href="mailto:info@example.com "><i class="bi bi-envelope-fill pe-2 text-primary"></i>info@example.com </li></a>
+                    <li><a class="text-decoration-none text-secondary" href="tel:+012 345 6789"><i class="bi bi-telephone-fill pe-2 text-primary"></i>+012 345 6789</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-header navbar navbar-expand-lg px-5">
+            <div class="navbar-brand">
+                <div><a class="display-5 text-primary font-jost fw-bold text-decoration-none" href="index.html">Finanza</a></div>
+            </div>
+            <button class="navbar-toggler border-0 bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" >
+                <span class="navbar-toggler-icon bg-white"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav show">
+                    <li class="nav-item"><a class="nav-link pe-3 " href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link pe-3" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link pe-3" href="services.html">Services</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle pe-3 active" href="#" data-bs-toggle="dropdown">Pages</a>
+                        <ol class="dropdown-menu">
+                            <li><a class="dropdown-item" href="project.html">Projects</a></li>
+                            <li><a class="dropdown-item" href="feature.html">Features</a></li>
+                            <li><a class="dropdown-item active" href="team.html">Team Member</a></li>
+                            <li><a class="dropdown-item" href="testimonial.html">Testimonial</a></li>
+                            <li><a class="dropdown-item" href="404pages.html">404 Page</a></li>
+                        </ol>
+                    </li>
+                    <li class="nav-item"><a class="nav-link pe-3" href="contact.html">Contact</a></li>
+                    <div class="icon d-none d-lg-block text-primary ms-3 me-2 rounded-circle">
+                        <a href="#" class="text-decoration-none"><i class="bi bi-facebook px-2 py-2"></i></a>
+                    </div>
+                    <div class="icon d-none d-lg-block text-primary me-2 ms-2 rounded-circle">
+                        <a href="#" class="text-decoration-none"><i class="bi bi-twitter px-2 py-2"></i></a>
+                    </div>
+                    <div class="icon d-none d-lg-block text-primary me-2 ms-2 rounded-circle">
+                        <a href="#" class="text-decoration-none"><i class="bi bi-linkedin px-2 py-2"></i></a>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- banner section -->
+    <section class="about-banner">
+        <img class="img-fluid" src="img/header.jpg" alt="">
+        <div class="about-in position-absolute">
+            <h2 class="display-3 fw-bold pb-3 font-jost dark-blue">Team Member</h2>
+            <h6><span><a class="text-decoration-none text-primary" href="#">Home &nbsp;</a></span>/ &nbsp;<span><a class="text-decoration-none text-primary" href="#">Pages &nbsp;</a></span>/<span class="text-secondary"> &nbsp; Team Member</span></h6>
+        </div>
+    </section>
+
+    <!-- team section -->
+    <section class="team mt-5 pt-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow animate__animated animate__fadeInUp animate__delay">
+                <p class="text-primary rounded border d-inline-block py-1 px-2">Our Team</p>
+                <h2 class="display-4 fw-semibold dark-blue font-jost">Exclusive Team</h2>
+            </div>
+            <div class="row py-5 justify-content-center">
+                <div class="col-12 col-md-6 col-lg-4 pb-5 mb-5 mb-lg-0 pb-md-0 pe-5 wow animate__animated animate__fadeInUp animate__delay">
+                    <div class="img-box position-relative">
+                        <img class="img-fluid rounded-3" src="img/team-1.jpg" alt="">
+                        <div class="border w-75 rounded justify-content-between d-flex pt-3 align-items-center position-absolute">
+                            <h3 class="mt-3 mt-md-0 pb-3 fs-5 fw-bold ps-3 text-center">Kate Winslet</h3>
+                            <div class="d-flex">
+                                <div class="icon mb-3 mt-2 text-primary me-2 rounded-circle">
+                                    <a href="#" class="text-decoration-none"><i class="bi bi-facebook px-2 py-2 fs-6"></i></a>
+                                </div>
+                                <div class="icon mb-3 mt-2 text-primary me-2 ms-2 rounded-circle">
+                                    <a href="#" class="text-decoration-none"><i class="bi bi-twitter px-2 py-2 fs-6"></i></a>
+                                </div>
+                                <div class="icon mb-3 mt-2 text-primary me-2 ms-2 rounded-circle">
+                                    <a href="#" class="text-decoration-none"><i class="bi bi-instagram px-2 py-2 fs-6"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 py-5 my-5 py-md-0 my-md-0 pe-5 wow animate__animated animate__fadeInUp animate__delay">
+                    <div class="img-box position-relative">
+                        <img class="img-fluid rounded-3" src="img/team-2.jpg" alt="">
+                        <div class="border w-75 rounded justify-content-between d-flex pt-3 align-items-center position-absolute">
+                            <h3 class="mt-3 mt-md-0 pb-3 fs-5 fw-bold ps-3">Jac Jacson</h3>
+                            <div class="d-flex">
+                                <div class="icon mb-3 text-primary me-2 rounded-circle">
+                                    <a href="#" class="text-decoration-none"><i class="bi bi-facebook px-2 py-2 fs-6"></i></a>
+                                </div>
+                                <div class="icon mb-3 text-primary me-2 ms-2 rounded-circle">
+                                    <a href="#" class="text-decoration-none"><i class="bi bi-twitter px-2 py-2 fs-6"></i></a>
+                                </div>
+                                <div class="icon mb-3 text-primary me-2 ms-2 rounded-circle">
+                                    <a href="#" class="text-decoration-none"><i class="bi bi-instagram px-2 py-2 fs-6"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 py-5 my-5 py-lg-0 my-lg-0 pe-5 wow animate__animated animate__fadeInUp animate__delay">
+                    <div class="img-box position-relative">
+                        <img class="img-fluid rounded-3" src="img/team-3.jpg" alt="">
+                        <div class="border w-75 rounded justify-content-between d-flex pt-3 align-items-center position-absolute">
+                            <h3 class="mt-3 mt-md-0 pb-3 fs-5 fw-bold ps-3">Doris Jordan</h3>
+                            <div class="d-flex">
+                                <div class="icon mb-3 text-primary me-2 rounded-circle">
+                                    <a href="#" class="text-decoration-none"><i class="bi bi-facebook px-2 py-2 fs-6"></i></a>
+                                </div>
+                                <div class="icon mb-3 text-primary me-2 ms-2 rounded-circle">
+                                    <a href="#" class="text-decoration-none"><i class="bi bi-twitter px-2 py-2 fs-6"></i></a>
+                                </div>
+                                <div class="icon mb-3 text-primary me-2 ms-2 rounded-circle">
+                                    <a href="#" class="text-decoration-none"><i class="bi bi-instagram px-2 py-2 fs-6"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container padding-80">
+            <div class="row p-3">
+                <div class="col-12 col-md-6 col-lg-3 text-white wow animate__animated animate__fadeInUp animate__delay">
+                    <h3 class="fs-4 fw-semibol mb-2 font-jost">Our Office</h3>
+                    <ol class="list-group">
+                        <li class="list-group-item mt-2 p-0 border-0 bg-transparent"><a class="fs-6 fw-normal text-decoration-none text-white" href="#"><i class="bi bi-geo-alt-fill ps-0 me-3"></i>123 Street, New York, USA</a></li>
+                        <li class="list-group-item mt-2 p-0 border-0 bg-transparent"><a class="fs-6 fw-normal text-decoration-none text-white" href="tel:+012 345 67890"><i class="bi bi-telephone-fill ps-0 me-3"></i>+012 345 67890</a></li>
+                        <li class="list-group-item mt-2 p-0 border-0 bg-transparent"><a class="fs-6 fw-normal text-decoration-none text-white" href="mailto:info@example.com"><i class="bi bi-envelope-fill ps-0 me-3"></i>info@example.com</a></li>
+                    </ol>
+                    <div class="hstack mt-3">
+                        <div class="icon border text-primary me-2 rounded-circle">
+                            <a href="#" class="text-decoration-none"><i class="bi bi-facebook px-2 py-2"></i></a>
+                        </div>
+                        <div class="icon border text-primary me-2 rounded-circle">
+                            <a href="#" class="text-decoration-none"><i class="bi bi-twitter px-2 py-2"></i></a>
+                        </div>
+                        <div class="icon border text-primary me-2 rounded-circle">
+                            <a href="#" class="text-decoration-none"><i class="bi bi-linkedin px-2 py-2"></i></a>
+                        </div>
+                        <div class="icon border text-primary me-2 rounded-circle">
+                            <a href="#" class="text-decoration-none"><i class="bi bi-instagram px-2 py-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0 text-white wow animate__animated animate__fadeInUp animate__delay">
+                    <h3 class="fs-4 fw-semibol mb-2 font-jost">Services</h3>
+                    <ol class="list-group">
+                        <li class="list-group-item mt-2 p-0 border-0 bg-transparent"><a class="fs-6 link fw-normal text-decoration-none" href="#"><i class="bi bi-chevron-right pe-2 fs-5"></i>Financial Planning</a></li>
+                        <li class="list-group-item mt-2 p-0 border-0 bg-transparent"><a class="fs-6 link fw-normal text-decoration-none" href="#"><i class="bi bi-chevron-right pe-2 fs-5"></i>Cash Investment</a></li>
+                        <li class="list-group-item mt-2 p-0 border-0 bg-transparent"><a class="fs-6 link fw-normal text-decoration-none" href="#"><i class="bi bi-chevron-right pe-2 fs-5"></i>Financial Consultancy</a></li>
+                        <li class="list-group-item mt-2 p-0 border-0 bg-transparent"><a class="fs-6 link fw-normal text-decoration-none" href="#"><i class="bi bi-chevron-right pe-2 fs-5"></i>Business Loans</a></li>
+                        <li class="list-group-item mt-2 p-0 border-0 bg-transparent"><a class="fs-6 link fw-normal text-decoration-none" href="#"><i class="bi bi-chevron-right pe-2 fs-5"></i>Cash Investment</a></li>
+                    </ol>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0 text-white wow animate__animated animate__fadeInUp animate__delay">
+                    <h3 class="fs-4 fw-semibol mb-2 font-jost">Quick Links</h3>
+                    <ol class="list-group">
+                        <li class="list-group-item mt-2 p-0 border-0 bg-transparent"><a class="fs-6 link fw-normal text-decoration-none" href="#"><i class="bi bi-chevron-right pe-2 fs-5"></i>About Us</a></li>
+                        <li class="list-group-item mt-2 p-0 border-0 bg-transparent"><a class="fs-6 link fw-normal text-decoration-none" href="#"><i class="bi bi-chevron-right pe-2 fs-5"></i>Contact Us</a></li>
+                        <li class="list-group-item mt-2 p-0 border-0 bg-transparent"><a class="fs-6 link fw-normal text-decoration-none" href="#"><i class="bi bi-chevron-right pe-2 fs-5"></i>Our Services</a></li>
+                        <li class="list-group-item mt-2 p-0 border-0 bg-transparent"><a class="fs-6 link fw-normal text-decoration-none" href="#"><i class="bi bi-chevron-right pe-2 fs-5"></i>Terms & Condition</a></li>
+                        <li class="list-group-item mt-2 p-0 border-0 bg-transparent"><a class="fs-6 link fw-normal text-decoration-none" href="#"><i class="bi bi-chevron-right pe-2 fs-5"></i>Support</a></li>
+                    </ol>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0 text-white wow animate__animated animate__fadeInUp animate__delay">
+                    <h3 class="fs-4 fw-semibol mb-2 font-jost">Newsletter</h3>
+                    <p class="mt-2">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="input-group p-2 bg-white rounded">
+                        <input type="text" class="form-control border-0" placeholder="Your Email">
+                        <span class="input-group-text bg-primary rounded-2 text-white">Sign UP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right py-4 text-white">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-12 col-md-6">
+                        <p class="m-0">© <span class="copy-text border-bottom">Your Site Name</span>, All Right Reserved.</p>
+                    </div>
+                    <div class="col-12 mt-3 mt-md-0 col-md-6">
+                        <p class="m-0">Designed By <span class="copy-text border-bottom">HTML Codex</span> Distributed By ThemeWagon</p>
+                    <div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="back-to-top-btn position-fixed top-25">
+        <a class="text-decoration-none" href="#"><i class="bi bi-arrow-up rounded-circle px-2 py-2 bg-primary fs-4 text-white"></i></a>
+    </div>
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        // header js 
+        $(window).scroll(function(){
+            if($(window).scrollTop() > 50) {
+                $(".main-header").addClass("position-fixed top-0 bg-white w-100 zindex shadow")
+                $("header").removeClass("position-fixed");
+                $(".back-to-top-btn").fadeIn("fixed")
+            }
+            else{
+                $(".main-header").removeClass("position-fixed top-0 bg-white w-100 zindex shadow")
+                $("header").addClass("position-fixed")
+                $(".back-to-top-btn").fadeOut("fixed")
+            }
+        })
+    </script>
+    <script>
+        // counter section js 
+        $('.counter').counterUp({
+            delay: 15,
+            time: 2000
+        });
+
+    </script>
+    <script>
+        $(window).load(function(){
+            $(".loading-container").fadeOut(3000);
+        })
+    </script>
+
+</body>
+</html>
